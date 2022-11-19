@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+header {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.box {
+    background-color: rgb(199, 219, 236);
+    border: black 2px solid;
+    border-color: black;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.subtitle {
+    background-color: beige;
+    border: black 2px solid;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto 20px auto;
+}
+
+.back {
+    background-color: rgb(185, 245, 245);
+    border: black 2px solid;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 10px auto auto;
+}

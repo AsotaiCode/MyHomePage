@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>Asotai's Page</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/math-add-tool.css" type="text/css">
+    </head>
+    <!-- この下はbody -->
+    <body>
+        <article>
+            <header>
+                <h1 class="title">あそたいの部屋</h1>
+            </header>
+            
+            <content>
+                <div class="subtitle">足し算やる夫</div>
+                <div class="background">
+                    <p class="explanation">
+                        左側の2つのテキストボックスに数字を入力し計算ボタンを押すと、<br>
+                        右側のテキストボックスにそれらを足し算した結果が表示されます。
+                    </p>
+                    <div class="calc">
+                        <input type="number" id="first-num">
+                        +
+                        <input type="number" id="second-num">
+                        =
+                        <input type="number" id="answer-num" readonly>
+                        <input type="button" value="計算" id="button">
+                    </div>
+                </div>
+                <div class="back">
+                    <a href="tools.html">ブラウザツール集へ</a>
+                </div>
+            </content>
+
+            <footer>
+                Created by Asotai. 2022.
+            </footer>
+        </article>
+
+        <script src="../js/math-add-tool.js"></script>
+    </body>
+</html>

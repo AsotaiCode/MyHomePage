@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@import url(common.css);
+
+.background {
+    background-color: rgb(239, 230, 253);
+    border: black 2px dashed;
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.explanation {
+    text-align: center;
+}
